@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @simplefrom.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @simplefrom.email %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @simplefrom.year %>
+</p>
+
+<%= link_to 'Edit', edit_simplefrom_path(@simplefrom) %> |
+<%= link_to 'Back', simplefroms_path %>

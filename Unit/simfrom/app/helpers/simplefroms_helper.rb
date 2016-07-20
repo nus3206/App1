@@ -1,0 +1,2 @@
+module SimplefromsHelper
+end
